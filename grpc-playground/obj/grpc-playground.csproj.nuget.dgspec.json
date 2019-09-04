@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lukaszvikas/RiderProjects/grpc-playground/grpc-playground/grpc-playground.csproj": {}
+  },
+  "projects": {
+    "/Users/lukaszvikas/RiderProjects/grpc-playground/grpc-playground/grpc-playground.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lukaszvikas/RiderProjects/grpc-playground/grpc-playground/grpc-playground.csproj",
+        "projectName": "grpc-playground",
+        "projectPath": "/Users/lukaszvikas/RiderProjects/grpc-playground/grpc-playground/grpc-playground.csproj",
+        "packagesPath": "/Users/lukaszvikas/.nuget/packages/",
+        "outputPath": "/Users/lukaszvikas/RiderProjects/grpc-playground/grpc-playground/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/lukaszvikas/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Grpc.Tools": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
